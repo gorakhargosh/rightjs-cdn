@@ -1,0 +1,15 @@
+application: rightjs-cdn
+version: latest
+runtime: python
+api_version: 1
+
+default_expiration: "365d"
+
+handlers:
+- url: /latest
+  static_dir: static/latest
+  expiration: "10d"
+
+- url: /
+  static_dir: static/versions
+  expiration: "365d"
