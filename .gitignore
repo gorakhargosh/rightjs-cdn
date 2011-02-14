@@ -1,0 +1,5 @@
+*.~
+google_appengine/
+google_appengine*.zip
+app/static/latest
+
